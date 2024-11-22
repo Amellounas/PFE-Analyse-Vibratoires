@@ -2,6 +2,12 @@
 # Identification d'endommagements par la méthode de rapport des changements des fréquences locales-algorithmes d'optimisation
 
 
+<h2> Summary </h2>  
+As technology advances with the emergence of new trends, damage detection methods based on vibrational characteristics have been the focus of extensive research. Dynamic evaluation is performed by identifying modal parameters (natural frequencies, damping coefficients, and mode shapes), which are then used to detect damages in structures.  
+In our study, we developed a system comprising two main components: the first focuses on damage detection in 2D and 3D structures using the new LFCR method based on local frequencies, and the second is dedicated to locating and quantifying the damaged elements.  
+The damage detection phase was conducted using a method based on the ratio of changes in local frequencies, applied to two 2D and 3D truss structures modeled in Matlab through the finite element method. We compared healthy frequencies to damaged ones, and the LFCR method successfully identified the damaged elements. In the final phase of localization and quantification, we utilized optimization algorithms inspired by nature, applying two different types to our structures. The results demonstrated that the DO optimizer is the most effective algorithm, achieving very high precision in quantification.  
+We believe we have achieved our initial goal of developing a system capable of detecting, locating, and quantifying damages. Future improvements to this system could enable its application in real-time scenarios.  
+
 <h2> Résumé </h2>
 Comme la technologie est en plein essor avec la disponibilité des tendances émergentes, les méthodes de détection d’endommagements basées sur les caractéristiques vibratoires ont fait l’objet de nombreuses recherches, l’évaluation dynamique est faite par l’identification des paramètres modaux (fréquences propres, les coefficients d’amortissement et les déformées propres) qui sont ensuite utilisé afin d’identifier les endommagements dans des structures.
 Dans notre étude nous avons réalisé un système qui comporte deux principales parties, la première concerne la détection des endommagements dans deux structures 2D et 3D en utilisant la nouvelle méthode LFCR basé sur les fréquences locales, la seconde se charge de localiser et quantifier les éléments endommagés.
