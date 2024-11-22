@@ -1,2 +1,9 @@
-# PFE-Analyse-Vibratoires
-Identification d'endommagements par la méthode de rapport des changements des fréquences locales-algorithmes d'optimisation
+## PFE-Analyse-Vibratoires
+# Identification d'endommagements par la méthode de rapport des changements des fréquences locales-algorithmes d'optimisation
+
+
+<h2> Résumé </h2>
+Comme la technologie est en plein essor avec la disponibilité des tendances émergentes, les méthodes de détection d’endommagements basées sur les caractéristiques vibratoires ont fait l’objet de nombreuses recherches, l’évaluation dynamique est faite par l’identification des paramètres modaux (fréquences propres, les coefficients d’amortissement et les déformées propres) qui sont ensuite utilisé afin d’identifier les endommagements dans des structures.
+Dans notre étude nous avons réalisé un système qui comporte deux principales parties, la première concerne la détection des endommagements dans deux structures 2D et 3D en utilisant la nouvelle méthode LFCR basé sur les fréquences locales, la seconde se charge de localiser et quantifier les éléments endommagés.
+Nous avons traité la phase de la détection des endommagements par l’une des méthodes de détection qui est basé sur le rapport des changements des fréquences locales en l’appliquant sur deux structures treillis 2D et 3D que nous avons réalisé sur le logiciel Matlab par la méthode des éléments finis ensuit nous avons obtenues les fréquences saines comparés aux fréquences endommagées avec la méthode LFCR nous avons obtenu les éléments endommagés. Et dans la dernière phase de localisation et quantification des éléments endommagés nous avons opté pour des algorithmes d’optimisation ou nous avons utilisé deux sortes d’algorithmes inspiré de la nature sur nos deux structures. Les résultats obtenus ont démontré que l’optimiseur DO est le meilleur algorithme qui quantifie avec une très bonne précession.
+Nous estimons avoir réalisé un système répondant à l’objectif que nous avons fixé au départ, à savoir la mise en oeuvre d’un système permettant de détecter et localiser et quantifier les endommagements. En espérant une mise en oeuvre d’une amélioration de ce système pour pouvoir l’utiliser dans les besoins de temps réel.
